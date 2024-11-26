@@ -1,0 +1,13 @@
+version: '2.4'
+services:
+  db:
+    image: postgres
+    container_name: Server
+    environment:
+      POSTGRES_PASSWORD: 32132321Aa@
+    ports:
+      - "5432:5432"
+    volumes:
+      - server_data:/var/lib/postgres
+volumes:
+  server_data:
