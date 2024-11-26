@@ -4,7 +4,7 @@ services:
     image: postgres
     container_name: Server
     environment:
-      POSTGRES_PASSWORD: 32132321Aa@
+      POSTGRES_PASSWORD: 
     ports:
       - "5432:5432"
     volumes:
